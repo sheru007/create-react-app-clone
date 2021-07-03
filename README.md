@@ -40,3 +40,33 @@ npm install express
 npm install --save-dev nodemon
 
 ```
+
+## Step 4: Configuring Webpack - webpack.config.js
+
+## Step 5: Creating the HTML template - index.html
+
+## Step 6: Creating the server - server.js
+
+## Step 7: Creating the React app - App.js
+
+## Step 8: Creating the entry point for the React app - index.js
+
+## Step 9: Defining the scripts
+
+```json
+
+#packgae.json
+{
+    ...
+    "build": "rm -rf dist && webpack --mode development",
+    "dev": "nodemon app.js"
+    ...
+}
+```
+
+## Step 10: Building and running our app
+
+```js
+npm run build
+npm run dev
+```
